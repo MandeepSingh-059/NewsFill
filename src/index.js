@@ -5,10 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+import BrowserRouter from 'react-router-dom/BrowserRouter'
+
+ReactDOM.render((
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
+     <App />
+   </BrowserRouter>),
   document.getElementById('root')
 );
 
