@@ -35,8 +35,8 @@ const NavBar = () => {
                     <NavbarToggler onClick={handleToggle} />
                     <Collapse isOpen={isOpenVal} navbar>
                         <Nav className="mr-auto" navbar>
-                            <NavItem><NavLink tag={RRNavLink} exact to="/">Home</NavLink></NavItem>
-                            <NavItem><NavLink tag={RRNavLink} to="/business">Business</NavLink></NavItem>
+                            <NavItem><NavLink tag={RRNavLink} exact to={process.env.PUBLIC_URL + '/'}>Home</NavLink></NavItem>
+                            <NavItem><NavLink tag={RRNavLink} to="/NewsFill/business">Business</NavLink></NavItem>
                             <NavItem><NavLink tag={RRNavLink} to="/entertainment">Entertainment</NavLink></NavItem>
                             <NavItem><NavLink tag={RRNavLink} to="/general">General</NavLink></NavItem>
                             <NavItem><NavLink tag={RRNavLink} to="/health">Health</NavLink></NavItem>
