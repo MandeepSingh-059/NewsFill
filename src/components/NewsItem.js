@@ -4,7 +4,7 @@ import {
     CardTitle, CardSubtitle
 } from 'reactstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
-//   https://newsapi.org/v2/top-headlines?country=us&apiKey=ac61e477a31f4607b6b6b46ece505d9e&pagesize=6
+
 const NewsItem = (props) => {
 
         let { title, description, author, imageUrl, newsUrl, date, source } = props;
