@@ -7,7 +7,7 @@ Desktop View of the Web App during normal operation will be as follows-
 
 and the mobile view would be as follows- 
 
-![alt text](desktopView.PNG)
+![alt text](mobileView.PNG)
 
 # Getting Started with Create React App
 
