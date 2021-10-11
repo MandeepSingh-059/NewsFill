@@ -3,10 +3,11 @@ Note:- NewsApi no longer serves requests made from devlopement servers (only fro
 Deployed app Link: https://mandeepsingh-059.github.io/NewsFill/
 
 Desktop View of the Web App during normal operation will be as follows-
-![alt text](https://github.com/MandeepSingh-059/NewsFill//desktopView.png?raw=true)
+![alt text](https://raw.githubusercontent.com/MandeepSingh-059/NewsFill/master/desktopView.PNG)
 
 and the mobile view would be as follows- 
-![alt text](https://github.com/[MandeepSingh-059]/[NewsFill]/[master]/mobileView.png?raw=true)
+
+![alt text](desktopView.PNG)
 
 # Getting Started with Create React App
 
