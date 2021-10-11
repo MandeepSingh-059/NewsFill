@@ -2,6 +2,7 @@ Note:- NewsApi no longer serves requests made from devlopement servers (only fro
 
 Deployed app Link: https://mandeepsingh-059.github.io/NewsFill/
 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
