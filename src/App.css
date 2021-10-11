@@ -40,3 +40,7 @@
 .card {
   max-width: 25%;
 }
+
+body{
+  padding-top: 3rem;
+}
