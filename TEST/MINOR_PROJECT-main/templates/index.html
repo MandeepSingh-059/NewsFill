@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <link rel="icon" href="/static/images/icon-api.svg">
+    <title>Easybank</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <img src="static/images/logo.svg" alt="" />
+      <div class="nav-items">
+        <a href="#">Home</a>
+        <a href="#" target="_blank">About Us</a>
+        <a href="/Minor-Project/form/form.html" target="_blank">Get Started</a>
+      </div>
+      <button>Request Invite</button>
+    </nav>
+    <header class="hero-section">
+      <div class="hero-text-container">
+        <h1
+          >Next generation<br />
+          digital banking</h1
+        >
+        <p
+          >Take your financial life online. Your easy bank account<br />
+          will be a one-stop-shop for spending,saving,<br />budgeting,investing,
+          and much more.</p
+        >
+        <button>Request Invite</button>
+      </div>
+      <div class="hero-img-container">
+        <img src="static/images/image-mockups.png" alt="" />
+      </div>
+    </header>
+    <div class="container">
+      <section class="why-us">
+        <h1>Why choose Easybank?</h1>
+        <p
+          >We leverage open banking to turn your bank account into your
+          financial hub.<br />Control your finances like never before.</p
+        >
+      </section>
+      <section class="features-section">
+        <div class="feature-item">
+          <img src="static/images/icon-online.svg" alt="" />
+          <h1>Online Banking</h1>
+          <p
+            >Our modern web and mobile<br />
+            applications allow you to keep<br />
+            track of your finances whereever<br />
+            you are in the world.</p
+          >
+        </div>
+        <div class="feature-item">
+          <img src="static/images/icon-budgeting.svg" alt="" />
+          <h1>Simple Budgeting</h1>
+          <p
+            >See exactly where your money<br />
+            goes every month.Recieve<br />
+            notifications when you're close to<br />
+            hitting your limits./p >
+          </p></div
+        >
+
+        <div class="feature-item">
+          <img src="static/images/icon-onboarding.svg" alt="" />
+          <h1>Fast Onboarding</h1>
+          <p
+            >We don't do branches.Open your<br />
+            accound minutes online and start<br />
+            taking controll of your finances<br />
+            right away.</p
+          >
+        </div>
+        <div class="feature-item">
+          <img src="static/images/icon-api.svg" alt="" />
+          <h1>Open API</h1>
+          <p
+            >Manage your savings, investments,<br />
+            pension and much more from one<br />
+            account.Tracking your money has<br />
+            never been easier.</p
+          >
+        </div>
+      </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body onload="myfunction()">
+	<div id="loader-wrapper">
+    </div>
+	
+    <div class="page-content">
+      <div class="form-content">
+          <form class="form-detail" action="#" method="post" id="myform">
+              <div class="form-left">
+                  <h2>General Infomation</h2>
+                  <div class="form-row">
+                      <select name="title">
+                          <option class="option" value="title">Title</option>
+                          <option class="option" value="Mr">Mr.</option>
+                          <option class="option" value="Ms">Ms.</option>
+                          <option class="option" value="Mrs">Mrs.</option>
+                      </select>
+                      <span class="select-btn">
+                            <i class="zmdi zmdi-chevron-down"></i>
+                      </span>
+                  </div>
+                  <div class="form-group">
+                      <div class="form-row form-row-1">
+                          <input type="text" name="first_name" id="first_name" class="input-text" placeholder="First Name" required>
+                      </div>
+                      <div class="form-row form-row-2">
+                          <input type="text" name="last_name" id="last_name" class="input-text" placeholder="Last Name" required>
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <select name="position">
+                          <option value="position">Position</option>
+                          <option value="student">Student</option>
+                          <option value="employed">Employed</option>
+                          <option value="unemployed">Unemployed</option>
+                      </select>
+                      <span class="select-btn">
+                            <i class="zmdi zmdi-chevron-down"></i>
+                      </span>
+                  </div>
+                  <div class="form-row">
+                      <input type="text" name="company" class="company" id="company" placeholder="Company/Institution" required>
+                  </div>
+                  <div class="form-group">
+                      <div class="form-row form-row-3">
+                          <input type="text" name="age" class="age" id="age" placeholder="Age" required>
+                      </div>
+                      <div class="form-row form-row-4">
+                          <select name="employees">
+                              <option value="gender">Gender</option>
+                              <option value="male">Male</option>
+                              <option value="female">Female</option>
+                              <option value="transgender">Transgender</option>
+                          </select>
+                          <span class="select-btn">
+                                <i class="zmdi zmdi-chevron-down"></i>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+            
+    </div>
+    </div>
+    
+  </form>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="page-content">
+    <div class="form-content">
+
+      
+      <form class="form-detail" action="{{url_for('home')}}" method="POST" id="myform">
+
+        <form method="POST", action="{{url_for('home')}}">
+
+				<div class="form-right">
+          
+					<h2>Prediction Data</h2>
+					<div class="form-row">
+						<input type="text" name="a" class="street" id="street" placeholder="Time" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="b" id="your_email" class="input-text"  placeholder="Place">
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-1">
+							<input type="text" name="c" class="zip" id="zip" placeholder="Location" required>
+						</div>
+						<div class="form-row form-row-2">
+							<input type="number" name="d" class="zip" id="zip" placeholder="Amount" required>
+							<span class="select-btn">
+							  	<i class="zmdi zmdi-chevron-down"></i>
+							</span>
+						</div>
+					</div>
+					<div class="form-row">
+						<input type="text" name="e" class="zip" id="zip" placeholder="Transaction Type" required>
+						<span class="select-btn">
+						  	<i class="zmdi zmdi-chevron-down"></i>
+						</span>
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-1">
+							<input type="number" name="code" class="code" id="code" placeholder="Dial Code" required>
+						</div>
+						<div class="form-row form-row-2">
+							<input type="text" name="f" class="phone" id="phone" placeholder="Merchant" required>
+						</div>
+					</div>
+					<div class="form-row">
+						<input type="text" name="g" class="additional" id="additional" placeholder="Any Invalid Logins ?" required>
+					</div>
+          <div class="form-row">
+						<input type="text" name="h" class="additional" id="additional" placeholder="Any Recurrent Debits ?" required>
+					</div>
+					<div class="form-row-last">
+						<input type="submit" name="register" class="register" value="Predict">
+					</div>
+				</div>
+
+   
+  
+  </form>
+  </form>
+</div>
+</div>
+  
+	<script>
+        var preloader = document.getElementById('loader-wrapper');
+        function myfunction(){
+            preloader.style.display = 'none';
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  <div class="page-content">
+    <div class="form-content">
+      
+    <section class="blog-section">
+      <h1>Latest Articles</h1>
+      <div class="article-container">
+        <div class="article">
+          <img src="static/images/image-currency.jpg" alt="" />
+          <div class="content">
+            <p>Arslan Jajja</p>
+            <h4
+              >Recieve money in any<br />
+              currency with no fees.</h4
+            >
+            <p
+              >The world is getting smaller and<br />
+              we are becoming more mobile.So,<br />
+              why should you be forced to only<br />
+              recieve money in a single...</p
+            >
+          </div>
+        </div>
+        <div class="article">
+          <img src="static/images/image-restaurant.jpg" alt="" />
+          <div class="content">
+            <p>Arslan Jajja</p>
+            <h4
+              >Recieve money in any<br />
+              currency with no fees.</h4
+            >
+            <p
+              >Our simple budgeting feature<br />
+              allow to seperate out your<br />
+              spending and set realistic limits<br />
+              each month.That means you...</p
+            >
+          </div>
+        </div>
+        <div class="article">
+          <img src="static/images/image-plane.jpg" alt="" />
+          <div class="content">
+            <p>Arslan Jajja</p>
+            <h4>Take Your Easybank card<br />whereever you go.</h4>
+            <p
+              >We want you to enjoy your travels.<br />This is why we don't
+              charge any<br />fees on purchase while you're <br />abroad.We'll
+              even show you...</p
+            >
+          </div>
+        </div>
+        <div class="article">
+          <img src="static/images/image-confetti.jpg" alt="" />
+          <div class="content">
+            <p>Arslan Jajja</p>
+            <h4>Our invite-only Beta<br />accounts are live now!</h4>
+            <p
+              >After a lot of hardwork by the<br />
+              whole team,we're excited to launch<br />
+              our closed beta.It's easy to request <br />an invite through the
+              site.</p
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="social-container">
+        <img src="./images/icon-facebook.svg" alt="" />
+        <img src="./images/icon-instagram.svg" alt="" />
+        <img src="./images/icon-twitter.svg" alt="" />
+        <img src="./images/icon-pinterest.svg" alt="" />
+      </div>
+      <div class="menu">
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="menu">
+        <a href="#">Carriers</a>
+        <a href="#">Support</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <button>Request Invite</button>
+    </div>
+  </footer>
+</body>
+</html>
