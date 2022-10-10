@@ -1,4 +1,4 @@
- Noote:- NewsApi no longer serves requests made from devlopement servers (only from local host) so the deployed website will give a error 426
+ Note:- NewsApi no longer serves requests made from devlopement servers (only from local host) so the deployed website will give a error 426
 
 Deployed app Link: https://mandeepsingh-059.github.io/NewsFill/
 
