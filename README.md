@@ -1,4 +1,4 @@
- Note:- NewsApi no longer serves requests made from devlopement servers (only from local host) so the deployed website will give a error 426
+Note:- NewsApi no longer serves requests made from devlopement servers(only from localhost), please run locally.
 
 Desktop View of the Web App during normal operation will be as follows-
 ![alt text](https://raw.githubusercontent.com/MandeepSingh-059/NewsFill/master/desktopView.PNG)
